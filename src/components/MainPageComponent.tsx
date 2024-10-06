@@ -12,16 +12,16 @@ export default function MainPageComponent() {
 
         {/* Second Div */}
         <div className="flex h-96 w-1/2 justify-center items-center pt-14">
-          <ol class="relative border-s border-gray-200 dark:border-gray-700">
-            <li class="mb-10 ms-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <ol className="relative border-s border-gray-200 dark:border-gray-700">
+            <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April 2023 - Present
               </time>
-              <h3 class="text-md font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-md font-semibold text-gray-900 dark:text-white">
                 Teaching Assistant
               </h3>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Assisted students for Foundations of Computer Engineering,
                 Programming Fundamentals and Data Structures and Algorithms
                 Courses.
@@ -47,18 +47,18 @@ export default function MainPageComponent() {
                 </li>
               </ul>
             </li>
-            <li class="ms-4">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Jul 2023 - Aug 2023
               </time>
-              <h3 class="text-md font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-md font-semibold text-gray-900 dark:text-white">
                 Backend Developer Intern -{" "}
                 <a href="https://www.spp42.com/" className="text-red-600">
                   SPP42
                 </a>
               </h3>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Developed the necessary functions for Admin, Student and Teacher
                 Control Panels, Implemented the necessary APIs for the project.
               </p>
@@ -92,12 +92,12 @@ export default function MainPageComponent() {
                 </li>
               </ul>
             </li>
-            <li class="ms-4 mt-7">
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <li className="ms-4 mt-7">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Jul 2024 - Sept 2024
               </time>
-              <h3 class="text-md font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-md font-semibold text-gray-900 dark:text-white">
                 FullStack Developer Intern -{" "}
                 <a
                   href="https://www.basarsoft.com.tr/"
@@ -106,7 +106,7 @@ export default function MainPageComponent() {
                   Basarsoft
                 </a>
               </h3>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Developed an interactive map application that allows users to
                 place and edit points, create and modify polygons, and assign
                 names and descriptions to them.
