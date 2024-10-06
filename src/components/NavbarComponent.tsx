@@ -6,7 +6,6 @@ export default function NavbarComponent() {
           <a
             href="#"
             className="mr-auto flex items-center gap-2 text-lg font-semibold"
-            prefetch={false}
           >
             <span className="font-RockSalt">Serhat</span>
             <span className="font-RockSalt text-red-600">Karaman</span>
