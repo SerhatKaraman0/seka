@@ -9,6 +9,9 @@ export default {
     extend: {
       fontFamily: {
         RockSalt: ["Rock Salt", "cursive"],
+        SourceCodePro: ["Source Code Pro", "monospace"],
+        Jost: ["Jost", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

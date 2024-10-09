@@ -1,14 +1,16 @@
 import "./App.css";
-import MainPageComponent from "./components/MainPageComponent";
+import BackgroundComponent from "./components/BackgroundComponent";
+import MainContentComponent from "./components/MainContentComponent";
 import NavbarComponent from "./components/NavbarComponent";
-import ProjectsPageComponent from "./components/ProjectsPageComponent";
+import ProjectsComponent from "./components/ProjectsComponent";
 
 function App() {
   return (
-    <div className="relative w-screen h-screen flex flex-col max-w-full">
+    <div className="bg-black relative w-screen h-screen max-w-full">
       <NavbarComponent />
-      <MainPageComponent />
-      <ProjectsPageComponent />
+      <MainContentComponent />
+      <BackgroundComponent />
+      <ProjectsComponent />
     </div>
   );
 }
