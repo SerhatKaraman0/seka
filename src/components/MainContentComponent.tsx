@@ -6,19 +6,57 @@ export default function MainContentComponent() {
   return (
     <div className="flex flex-row h-screen">
       {/* Red Sidebar */}
-      <div className="bg-transparent w-1/6 h-screen flex items-center justify-start">
+      <div className="bg-black w-1/6 h-screen flex items-center justify-start">
         <ul className="flex flex-col pl-4 fixed h-1/2 mt-4">
           <li className="font-SourceCodePro text-white">Intro</li>
           <li className="font-SourceCodePro text-white">Background</li>
           <li className="font-SourceCodePro text-white">Projects</li>
-          <li className="font-SourceCodePro text-white">Contact</li>
+        </ul>
+        <ul className="flex flex-col pl-4 fixed mt-4 bottom-4">
+          <li className="font-SourceCodePro text-white">
+            <a
+              href="mailto:serhatkaramanworkmail@gmail.com"
+              className="underline"
+            >
+              Mail me
+            </a>
+          </li>
+          <li className="font-SourceCodePro text-white">
+            <a
+              href="https://www.linkedin.com/in/serhatkaraman/"
+              className="underline"
+            >
+              Linkedin
+            </a>
+          </li>
+          <li className="font-SourceCodePro text-white">
+            <a href="https://github.com/SerhatKaraman0" className="underline">
+              Github
+            </a>
+          </li>
+          <li className="font-SourceCodePro text-white">
+            <a
+              href="https://www.kaggle.com/serhatkaraman"
+              className="underline"
+            >
+              Kaggle
+            </a>
+          </li>
+          <li className="font-SourceCodePro text-white">
+            <a
+              href="https://www.instagram.com/serhat___krmn/"
+              className="underline"
+            >
+              Intagram
+            </a>
+          </li>
         </ul>
       </div>
 
       {/* Green Section with Centered Image and Text */}
       <div className="bg-black w-2/6 h-screen flex flex-col items-center justify-center">
         <img
-          src="https://via.placeholder.com/150"
+          src="me.jpg"
           alt="Centered Square"
           className="w-64 h-64 border-2 border-white object-cover mb-1"
         />
