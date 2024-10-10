@@ -282,11 +282,12 @@ export default function ProjectsComponent() {
                       height="100"
                       src="https://www.youtube.com/embed/PQBo1M7sRv0"
                       title="basarsoft staj sunum"
-                      frameBorder="0"
+                      frameBorder={0}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       referrerPolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
+
                     <p className="text-white text-3xl pt-[12px] mb-96">
                       Html, Css, Javascript, Mysql
                     </p>
