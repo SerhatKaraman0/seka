@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const checkScreenSize = () => {
-      if (window.innerWidth < 800) {  // Mobile breakpoint
+      if (window.innerWidth < 768) {  // Mobile breakpoint
         setIsMobile(true);
       } else {
         setIsMobile(false);
@@ -28,7 +28,18 @@ function App() {
 
   return (
     <div className="bg-black relative w-screen h-screen max-w-full">
-      <LuxuryBusinessCard />
+      {/* Only show these components if not mobile */}
+      {!isMobile && (
+        <>
+          <NavbarComponent />
+          <MainContentComponent />
+          <BackgroundComponent />
+          <ProjectsComponent />
+        </>
+      )}
+
+      {/* Show MobileComponent for mobile screens */}
+      {isMobile && <LuxuryBusinessCard />}
     </div>
   );
 }
