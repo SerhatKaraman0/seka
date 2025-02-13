@@ -5,7 +5,7 @@ import NavbarComponent from "./components/NavbarComponent";
 import ProjectsComponent from "./components/ProjectsComponent";
 import LuxuryBusinessCard from "./components/MobileComponent";
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
