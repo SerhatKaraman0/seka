@@ -138,7 +138,7 @@ export default function MainContentComponent() {
               <span className="italic">Backend, Frontend</span> and also{" "}
               <span className="italic">Machine Learning</span> and here is my{" "}
               <a
-                href="serhatkaramancv-uptodate.pdf"
+                href="SerhatKaraman_Resume_February_2025.pdf"
                 download
                 className="text-red-600 underline"
               >
