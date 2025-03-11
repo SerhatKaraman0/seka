@@ -21,6 +21,14 @@ export default function MainContentComponent() {
               Mail me
             </a>
           </li>
+           <li className="font-SourceCodePro text-white">
+            <a
+              href="https://medium.com/@serhatkaraman"
+              className="underline"
+            >
+              Medium
+            </a>
+          </li>
           <li className="font-SourceCodePro text-white">
             <a
               href="https://www.linkedin.com/in/serhatkaraman/"

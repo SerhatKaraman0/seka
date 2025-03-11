@@ -91,6 +91,14 @@ const LuxuryBusinessCard = () => {
                       </li>
                       <li>
                         <a
+                          className="underline"
+                          href="https://medium.com/@serhatkaraman"
+                        >
+                          Medium
+                        </a>
+                      </li>
+                      <li>
+                        <a
                           href="SerhatKaraman_Resume_February_2025.pdf"
                           download
                           className="text-red-600 underline"
